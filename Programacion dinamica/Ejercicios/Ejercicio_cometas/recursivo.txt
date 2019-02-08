@@ -1,0 +1,35 @@
+j
+i 0	1	2	 3	 4	40	50
+0 0 2						55	50-10
+1 0
+2 0 2					20	65
+3 0 3						inf
+4 0	inf	inf	inf	inf		inf
+casos base  mat[0][longitudMax];
+casos base2 mat[][];
+cometas(indicuerdas , longMax){coste minimo  indicuerdas 
+				hasta n para llegar a longitud longMax
+}
+
+caso base: cometas(n,longmax > 0)=inf;
+	   cometas(n,0)=0;
+	   cometas(j,0)=0;
+	
+caso recursivo:
+	  	cometas(i,j) {	
+			//si pongo la cuerda i y cabe me cuesta
+			if(j>= (long.i))
+				//si no pongo la cuerda i
+				min(cometas(i+1,j-(long.i))+coste.i,coemtas(i+1,j))		
+			}
+		}
+		devuelve
+
+ i 	4	5
+0 0		55	
+1 0		55	
+2 0		inf
+3 0		inf
+4 0		inf	
+
+	
